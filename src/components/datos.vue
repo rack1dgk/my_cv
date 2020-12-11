@@ -1,12 +1,9 @@
 <template>
-    <div class="inline-block text-left h-96 w-96 text-black mb-10">
-        <div class="pr-10 divide-x-2 divide-x-reverse h-full">
-            <a href="#" class="block font-bold">Raul Bautista Arroyo</a>
-            <a href="#" class="block">26 años</a>
-            <a href="#" class="block">Puebla, Pue.</a>
-            <a href="#" class="block">Tel: (222)-5-03-44-37</a>
-            <a href="#" class="block">Cel: 22-11-17-64-42</a>
-            <a href="#" class="block pr-4">Email: raulba4@gmail.com</a>
+    <div class="inline-block text-left h-96 w-96 text-black mb-6 divide-x-2 divide-x-reverse divide-blue-700">
+        <div v-for="(item, index) in personal_data" :key="item.personal">
+            <a v-if="index == 0 && index != length_personal_data()" class="block font-bold">{{item.personal}}</a>
+            <a v-if="index != 0 && index != length_personal_data()" class="block">{{item.personal}}</a>
+            <a v-if="index == length_personal_data()" class="block italic pr-8">{{item.personal}}</a>
         </div>
     </div>
 </template>
@@ -15,7 +12,22 @@
 export default {
     name: 'datos',
     data(){
+        return {
+            personal_data: [
+                { personal: "Raul Bautista Arroyo"},
+                { personal: "26 años"},
+                { personal: "Puebla, Pue."},
+                { personal: "Tel: (222)-5-03-44-37"},
+                { personal: "Cel: 22-11-17-64-42"},
+                { personal: "Email: raulba4@gmail.com"}
 
+            ],
+        }
+    },
+    methods: {
+        length_personal_data(){
+            return this.personal_data.length - 1
+        }
     }
 }
 </script>
