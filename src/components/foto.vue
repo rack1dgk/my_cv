@@ -4,8 +4,8 @@
         <datos></datos>
         <estudios/>
 
-        <div class="inline-block h-48 w-48">
-            <img src="../assets/logo.png" alt="My_image" class="h-full w-full object-cover mt-10" >
+        <div class="inline-block h-40 w-32">
+            <img src="../assets/my.jpg" alt="My_image" class="h-full w-full object-cover mt-2" >
         </div>
     </header>
 </template>

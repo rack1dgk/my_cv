@@ -1,6 +1,6 @@
 <template>
     <div class="inline-block text-left text-black h-24 ml-32 mr-8 font-bold text-2xl align-top mt-16">
-        <p class="">Ingeniería en Tecnología de la Información y comunicación</p>
+        <p class="">Ingeniería en Tecnologías de la Información y comunicación</p>
     </div>
 </template>
 

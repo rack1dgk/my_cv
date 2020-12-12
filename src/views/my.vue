@@ -1,15 +1,17 @@
 <template>
-    <div class="text-green-600">
+    <div class="text-green-600 -mt-12">
         <foto/>
-        Holis
+        <logos/>
+        
     </div>
 </template>
 
 <script>
 import foto from "@/components/foto"
+import logos from "@/components/logos"
 export default {
     name: "my",
-    components: {foto},
+    components: {foto, logos},
     data(){
 
     },
