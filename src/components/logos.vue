@@ -1,5 +1,5 @@
 <template>
-    <div class="h-40 w-full mt-2">
+    <div class="h-auto w-full mt-2">
         <div class="inline-block h-28 w-32 ml-4" v-for="item in routes_logos" :key="item.route_logo">
             <img :src="get_route(item.route_logo)" v-bind:alt="item.route_logo" class="h-full w-full object-cover"/>
         </div>

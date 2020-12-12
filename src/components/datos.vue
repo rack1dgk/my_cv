@@ -1,5 +1,5 @@
 <template>
-    <div class="inline-block text-left h-96 w-96 text-black mb-6 divide-x-2 divide-x-reverse divide-blue-700">
+    <div class="inline-block text-left h-96 w-96 text-black mb-6 divide-x-4 divide-x-reverse divide-blue-700">
         <div v-for="(item, index) in personal_data" :key="item.personal">
             <a v-if="index == 0 && index != length_personal_data()" class="block font-bold">{{item.personal}}</a>
             <a v-if="index != 0 && index != length_personal_data()" class="block">{{item.personal}}</a>
