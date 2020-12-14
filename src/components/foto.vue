@@ -5,7 +5,7 @@
         <estudios/>
 
         <div class="inline-block h-40 w-32">
-            <img src="../assets/my.jpg" alt="My_image" class="h-full w-full object-cover mt-6abilities ml-8" >
+            <img src="../assets/my.jpg" alt="My_image" class="h-full w-full object-cover mt-6 md:mt-4 sm:mt2 ml-8" id="foto" >
         </div>
     </header>
 </template>
@@ -21,3 +21,30 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+@media (max-width: 1024px){
+    #foto {
+        margin-top: -40px !important;
+        margin-left: -5px !important;
+    }
+}
+@media (max-width: 544px){
+    #foto {
+        margin-top: -20px !important;
+        margin-left: -5px !important;
+    }
+}
+@media (max-width: 320px){
+    #foto {
+        margin-top: 20px !important;
+        margin-left: -5px !important;
+    }
+}
+@media (max-width: 280px){
+    #foto {
+        margin-top: 15px !important;
+        margin-left: -5px !important;
+    }
+}
+</style>
