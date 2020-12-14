@@ -5,7 +5,7 @@
         <estudios/>
 
         <div class="inline-block h-40 w-32">
-            <img src="../assets/my.jpg" alt="My_image" class="h-full w-full object-cover mt-6 ml-8" >
+            <img src="../assets/my.jpg" alt="My_image" class="h-full w-full object-cover mt-6abilities ml-8" >
         </div>
     </header>
 </template>
