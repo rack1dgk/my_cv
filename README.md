@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### For view the project finished go to link
+See [My CV finished](https://ingraulbautistaarroyo.netlify.app/).
+
