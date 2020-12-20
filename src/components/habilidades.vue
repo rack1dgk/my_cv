@@ -1,7 +1,7 @@
 <template>
     <div class="mt-4 ml-4 mr-4">
         <h1 class="text-left font-bold">Habilidades</h1>
-        <ul class="text-justify list-disc ist-inside bg-rose-200 ml-16 mr-16">
+        <ul class="text-justify list-disc list-inside bg-rose-200 ml-16 mr-16">
             <li 
             v-for="(item, index) in abilities" 
             :key="item.ability" class="mt-2" 
